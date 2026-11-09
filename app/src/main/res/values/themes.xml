@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna jendela = BgColor app (0xFF111113) supaya sebelum Compose tergambar
+         (dan di splash Android 12+) tidak ada kilatan layar hitam/putih. -->
+    <style name="Theme.RealPads" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/realpads_bg</item>
+        <item name="android:statusBarColor">@color/realpads_bg</item>
+        <item name="android:navigationBarColor">@color/realpads_bg</item>
+    </style>
+    <color name="realpads_bg">#FF111113</color>
+</resources>

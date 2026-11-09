@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "name": "Yamaha DTX-Multi 12",
+  "version": "1.6",
+  "author": "DTX Skin Project",
+  "svg": "skin.svg",
+  "viewBox": "0 0 900 900",
+  "layout": {
+    "padZone": "30 54 840 662",
+    "panelZone": "30 716 840 130"
+  },
+  "padSupport": {
+    "min": 12,
+    "max": 12
+  },
+  "controls": [
+    {
+      "id": "pad-1",
+      "type": "pad",
+      "index": 1,
+      "hit": "hit-pad-1",
+      "states": {
+        "normal": "pad-1-normal",
+        "active": "pad-1-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-2",
+      "type": "pad",
+      "index": 2,
+      "hit": "hit-pad-2",
+      "states": {
+        "normal": "pad-2-normal",
+        "active": "pad-2-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-3",
+      "type": "pad",
+      "index": 3,
+      "hit": "hit-pad-3",
+      "states": {
+        "normal": "pad-3-normal",
+        "active": "pad-3-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-4",
+      "type": "pad",
+      "index": 4,
+      "hit": "hit-pad-4",
+      "states": {
+        "normal": "pad-4-normal",
+        "active": "pad-4-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-5",
+      "type": "pad",
+      "index": 5,
+      "hit": "hit-pad-5",
+      "states": {
+        "normal": "pad-5-normal",
+        "active": "pad-5-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-6",
+      "type": "pad",
+      "index": 6,
+      "hit": "hit-pad-6",
+      "states": {
+        "normal": "pad-6-normal",
+        "active": "pad-6-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-7",
+      "type": "pad",
+      "index": 7,
+      "hit": "hit-pad-7",
+      "states": {
+        "normal": "pad-7-normal",
+        "active": "pad-7-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-8",
+      "type": "pad",
+      "index": 8,
+      "hit": "hit-pad-8",
+      "states": {
+        "normal": "pad-8-normal",
+        "active": "pad-8-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-9",
+      "type": "pad",
+      "index": 9,
+      "hit": "hit-pad-9",
+      "states": {
+        "normal": "pad-9-normal",
+        "active": "pad-9-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-10",
+      "type": "pad",
+      "index": 10,
+      "hit": "hit-pad-10",
+      "states": {
+        "normal": "pad-10-normal",
+        "active": "pad-10-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-11",
+      "type": "pad",
+      "index": 11,
+      "hit": "hit-pad-11",
+      "states": {
+        "normal": "pad-11-normal",
+        "active": "pad-11-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "pad-12",
+      "type": "pad",
+      "index": 12,
+      "hit": "hit-pad-12",
+      "states": {
+        "normal": "pad-12-normal",
+        "active": "pad-12-active"
+      },
+      "trigger": "down"
+    },
+    {
+      "id": "btn-play",
+      "type": "button",
+      "hit": "hit-btn-play",
+      "states": {
+        "normal": "btn-play-normal",
+        "active": "btn-play-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-preset-prev",
+      "type": "button",
+      "hit": "hit-btn-preset-prev",
+      "states": {
+        "normal": "btn-preset-prev-normal",
+        "active": "btn-preset-prev-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-preset-next",
+      "type": "button",
+      "hit": "hit-btn-preset-next",
+      "states": {
+        "normal": "btn-preset-next-normal",
+        "active": "btn-preset-next-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-preset-menu",
+      "type": "button",
+      "hit": "hit-btn-preset-menu",
+      "states": {
+        "normal": "btn-preset-menu-normal",
+        "active": "btn-preset-menu-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-load",
+      "type": "button",
+      "hit": "hit-btn-load",
+      "states": {
+        "normal": "btn-load-normal",
+        "active": "btn-load-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-export",
+      "type": "button",
+      "hit": "hit-btn-export",
+      "states": {
+        "normal": "btn-export-normal",
+        "active": "btn-export-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-settings",
+      "type": "button",
+      "hit": "hit-btn-settings",
+      "states": {
+        "normal": "btn-settings-normal",
+        "active": "btn-settings-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-music",
+      "type": "button",
+      "hit": "hit-btn-music",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-voice",
+      "type": "button",
+      "hit": "hit-btn-voice",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-screenrec",
+      "type": "button",
+      "hit": "hit-btn-screenrec",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-skin",
+      "type": "button",
+      "hit": "hit-btn-skin",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-rec",
+      "type": "button",
+      "hit": "hit-btn-rec",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-theme",
+      "type": "button",
+      "hit": "hit-btn-theme",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-seek-back",
+      "type": "button",
+      "hit": "hit-btn-seek-back",
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-seek-fwd",
+      "type": "button",
+      "hit": "hit-btn-seek-fwd",
+      "trigger": "tap"
+    },
+    {
+      "id": "vol-knob",
+      "type": "rotary",
+      "hit": "hit-vol-knob",
+      "track": "vol-track",
+      "handle": "vol-handle",
+      "angleMin": -135,
+      "angleMax": 135,
+      "valueRange": [
+        0,
+        1
+      ],
+      "defaultValue": 0.78,
+      "gesture": [
+        "circular",
+        "vertical-drag"
+      ]
+    },
+    {
+      "id": "slot-display",
+      "type": "display",
+      "lines": 2
+    }
+  ],
+  "mapping": {
+    "pad-1": {
+      "function": "sample.play",
+      "params": {
+        "pad": 1
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-2": {
+      "function": "sample.play",
+      "params": {
+        "pad": 2
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-3": {
+      "function": "sample.play",
+      "params": {
+        "pad": 3
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-4": {
+      "function": "sample.play",
+      "params": {
+        "pad": 4
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-5": {
+      "function": "sample.play",
+      "params": {
+        "pad": 5
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-6": {
+      "function": "sample.play",
+      "params": {
+        "pad": 6
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-7": {
+      "function": "sample.play",
+      "params": {
+        "pad": 7
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-8": {
+      "function": "sample.play",
+      "params": {
+        "pad": 8
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-9": {
+      "function": "sample.play",
+      "params": {
+        "pad": 9
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-10": {
+      "function": "sample.play",
+      "params": {
+        "pad": 10
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-11": {
+      "function": "sample.play",
+      "params": {
+        "pad": 11
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "pad-12": {
+      "function": "sample.play",
+      "params": {
+        "pad": 12
+      },
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onPadDown(id)"
+    },
+    "btn-play": {
+      "function": "music.toggle",
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onMusicToggle() (jika belum ada lagu: membuka pustaka musik)"
+    },
+    "btn-preset-prev": {
+      "function": "preset.prev",
+      "apkStatus": "wrap-existing",
+      "apkRef": "currentPreset - 1 (batas 1; preset terkunci FREE -> openProUpgradeLink)"
+    },
+    "btn-preset-next": {
+      "function": "preset.next",
+      "apkStatus": "wrap-existing",
+      "apkRef": "currentPreset + 1 (batas presetCount; preset terkunci FREE -> openProUpgradeLink)"
+    },
+    "btn-preset-menu": {
+      "function": "preset.menu",
+      "apkStatus": "new",
+      "apkRef": "tombol KIT -> tampil/sembunyi panel preset ASLI APK (bukan dialog baru)"
+    },
+    "btn-load": {
+      "function": "file.load",
+      "apkStatus": "existing",
+      "apkRef": "showLoadSourceChooser = true"
+    },
+    "btn-export": {
+      "function": "file.export",
+      "apkStatus": "existing",
+      "apkRef": "showExportConfirmDialog = true"
+    },
+    "btn-settings": {
+      "function": "padSettings.open",
+      "apkStatus": "existing",
+      "apkRef": "onOpenSettings -> showPadVolumeSettings = true"
+    },
+    "vol-knob": {
+      "function": "volume.kendang",
+      "apkStatus": "existing",
+      "apkRef": "MainActivity.onKendangVolumeChange(v: Float)"
+    },
+    "slot-display": {
+      "function": "display.preset",
+      "template": [
+        "KIT",
+        "P{preset:000}"
+      ],
+      "apkStatus": "wrap-existing",
+      "apkRef": "currentPreset (APK belum punya nama preset: baris 1 = 'KIT', baris 2 = 'Pnnn')"
+    },
+    "btn-music": {
+      "function": "music.panel",
+      "apkStatus": "existing",
+      "apkRef": "tombol MIDI -> tampil/sembunyi panel volume & musik ASLI APK (bukan dialog baru)"
+    },
+    "btn-voice": {
+      "function": "sound.set",
+      "apkStatus": "existing",
+      "apkRef": "tombol VOICE -> SET SUARA pad terakhir yang diketuk"
+    },
+    "btn-screenrec": {
+      "function": "screenrecord.toggle",
+      "apkStatus": "existing",
+      "apkRef": "tombol TAP (bulat) -> rekam layar"
+    },
+    "btn-skin": {
+      "function": "skin.pick",
+      "apkStatus": "existing",
+      "apkRef": "tombol EXIT -> pemilih skin"
+    },
+    "btn-rec": {
+      "function": "record.toggle",
+      "apkStatus": "existing",
+      "apkRef": "tombol ENTER (merah muda) -> rekam audio"
+    },
+    "btn-theme": {
+      "function": "theme.open",
+      "apkStatus": "existing",
+      "apkRef": "tombol SHIFT -> tema warna"
+    },
+    "btn-seek-back": {
+      "function": "music.seekBack",
+      "apkStatus": "existing",
+      "apkRef": "tombol ◄ -> mundur 5 detik"
+    },
+    "btn-seek-fwd": {
+      "function": "music.seekForward",
+      "apkStatus": "existing",
+      "apkRef": "tombol ► -> maju 5 detik"
+    }
+  },
+  "unsupportedInReference": [
+    {
+      "id": "deco-updown",
+      "kind": "decorative",
+      "label": "▲▼",
+      "reason": "Tombol hardware Yamaha tanpa padanan fungsi di APK"
+    },
+    {
+      "kind": "apk-function",
+      "function": "preset.select",
+      "label": "P1..P50 langsung",
+      "apkRef": "PresetSidePanel onSelect",
+      "reason": "Diganti DEC/INC + preset.menu"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "led-pad-1",
+      "pad": 1,
+      "on": "led-pad-1-on"
+    },
+    {
+      "id": "led-pad-2",
+      "pad": 2,
+      "on": "led-pad-2-on"
+    },
+    {
+      "id": "led-pad-3",
+      "pad": 3,
+      "on": "led-pad-3-on"
+    },
+    {
+      "id": "led-pad-4",
+      "pad": 4,
+      "on": "led-pad-4-on"
+    },
+    {
+      "id": "led-pad-5",
+      "pad": 5,
+      "on": "led-pad-5-on"
+    },
+    {
+      "id": "led-pad-6",
+      "pad": 6,
+      "on": "led-pad-6-on"
+    },
+    {
+      "id": "led-pad-7",
+      "pad": 7,
+      "on": "led-pad-7-on"
+    },
+    {
+      "id": "led-pad-8",
+      "pad": 8,
+      "on": "led-pad-8-on"
+    },
+    {
+      "id": "led-pad-9",
+      "pad": 9,
+      "on": "led-pad-9-on"
+    },
+    {
+      "id": "led-pad-10",
+      "pad": 10,
+      "on": "led-pad-10-on"
+    },
+    {
+      "id": "led-pad-11",
+      "pad": 11,
+      "on": "led-pad-11-on"
+    },
+    {
+      "id": "led-pad-12",
+      "pad": 12,
+      "on": "led-pad-12-on"
+    }
+  ]
+}

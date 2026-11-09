@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIAN B (DISARANKAN): perilaku lama dipertahankan (preset, volume, tema, binding tetap ikut Auto Backup),
+     hanya cache besar/ulang-unduh yang dikecualikan. Ganti isi backup_rules.xml (dan <cloud-backup>/<device-transfer>
+     di data_extraction_rules.xml) dengan blok <exclude> yang sama. Progres event (realpads_event.xml) otomatis ikut. -->
+<full-backup-content>
+    <exclude domain="file" path="skin-cache/" />
+    <exclude domain="file" path="event-cache/banners/" />
+    <exclude domain="file" path="music_cache.pcm" />
+    <exclude domain="file" path="music_cache.tmp" />
+    <exclude domain="sharedpref" path="realpads_event_backup.xml" />
+    <exclude domain="sharedpref" path="realpads_event_repo.xml" />
+</full-backup-content>

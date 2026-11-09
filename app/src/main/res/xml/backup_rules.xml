@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto Backup Android (API <= 30, android:fullBackupContent). VARIAN A (sesuai permintaan): HANYA progres event.
+     Begitu ada <include>, SEMUA yang tidak disebut ikut TIDAK di-backup. Lihat backup_rules_exclude_variant.xml. -->
+<full-backup-content>
+    <include domain="sharedpref" path="realpads_event.xml" />
+    <include domain="file" path="event-cache/events.json" />
+</full-backup-content>

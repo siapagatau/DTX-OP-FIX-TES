@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto Backup + transfer perangkat (API 31+, android:dataExtractionRules). VARIAN A: hanya progres event. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="realpads_event.xml" />
+        <include domain="file" path="event-cache/events.json" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="realpads_event.xml" />
+        <include domain="file" path="event-cache/events.json" />
+    </device-transfer>
+</data-extraction-rules>

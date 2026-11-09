@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Semua teks fitur Event + Backup progres. Teks Indonesia santai & singkat. -->
+<resources>
+    <string name="event_tab_skin">Skin</string>
+    <string name="event_tab_event">Event</string>
+
+    <string name="event_source_online">Online</string>
+    <string name="event_source_cache">Offline - data tersimpan</string>
+    <string name="event_source_bundled">Data bawaan</string>
+    <string name="event_source_none">Belum ada data event</string>
+    <string name="event_empty">Belum ada event. Coba muat ulang pas ada internet.</string>
+    <string name="event_not_configured">Repo event belum dikonfigurasi. Cuma data bawaan yang tampil.</string>
+    <string name="event_refresh_desc">Muat ulang daftar event</string>
+    <string name="event_loading">Mengambil daftar event...</string>
+
+    <string name="event_period_not_started">Mulai %1$s</string>
+    <string name="event_period_until">Sampai %1$s</string>
+    <string name="event_period_ended">Event sudah berakhir</string>
+    <string name="event_quest_progress">%1$s / %2$s</string>
+    <string name="event_quest_done">Selesai</string>
+
+    <string name="event_btn_join">Ikut Event</string>
+    <string name="event_btn_locked">Terkunci · %1$d/%2$d misi</string>
+    <string name="event_btn_claim">Klaim Skin</string>
+    <string name="event_btn_use">Pakai</string>
+    <string name="event_btn_in_use">Sedang dipakai</string>
+    <string name="event_btn_premium">Khusus Premium</string>
+    <string name="event_btn_ended">Event berakhir</string>
+
+    <string name="event_join_failed">Gak bisa ikut event ini (sudah berakhir atau datanya berubah).</string>
+    <string name="event_claim_ok">Skin \"%1$s\" terbuka dan langsung dipakai!</string>
+    <string name="event_claim_need_internet">Perlu internet buat unduh skin. Hadiahmu aman, coba klaim lagi nanti.</string>
+    <string name="event_claim_failed">Gagal klaim: %1$s. Skin aktif gak berubah.</string>
+    <string name="event_claim_no_entry">Skin hadiah belum tersedia di repo skin.</string>
+    <string name="event_claim_not_ready">Misi belum selesai semua.</string>
+    <string name="event_use_failed">Skin gak bisa dipakai: %1$s</string>
+    <string name="event_use_ok">Skin \"%1$s\" dipakai</string>
+    <string name="event_ready_toast">Misi \"%1$s\" selesai semua! Buka tab Event buat klaim skin.</string>
+
+    <string name="backup_title">Backup progres</string>
+    <string name="backup_now">Backup Sekarang</string>
+    <string name="backup_restore">Pulihkan Progres</string>
+    <string name="backup_last">Terakhir backup: %1$s</string>
+    <string name="backup_never">Belum pernah backup</string>
+    <string name="backup_folder">Lokasi: Documents/%1$s/</string>
+    <string name="backup_folder_fallback">Folder emoji gagal, dipakai folder cadangan.</string>
+    <string name="backup_auto">Backup otomatis</string>
+    <string name="backup_folder_choice">Nama folder</string>
+    <string name="backup_ok">Backup tersimpan</string>
+    <string name="backup_same">Gak ada perubahan, backup dilewati</string>
+    <string name="backup_failed">Backup gagal: %1$s</string>
+    <string name="backup_need_permission">Izin penyimpanan dibutuhkan buat backup</string>
+    <string name="backup_permission_denied">Izin ditolak, backup otomatis dimatikan</string>
+    <string name="backup_restore_ok">Progres dipulihkan (%1$d misi digabung)</string>
+    <string name="backup_restore_bad">File backup gak valid: %1$s</string>
+    <string name="backup_restore_skin_later">Skin event akan dipakai lagi pas ada internet</string>
+    <string name="backup_err_open">file gak bisa dibuka</string>
+    <string name="backup_err_too_big">file terlalu besar</string>
+    <string name="backup_err_json">bukan JSON yang valid</string>
+    <string name="backup_err_schema">versi format gak dikenal</string>
+    <string name="backup_err_type">ada isi dengan tipe salah</string>
+
+    <string name="backup_auto_desc">Progres event disimpan otomatis ke folder backup</string>
+    <string name="backup_desc">Simpan progres misi supaya tidak hilang kalau app dihapus atau ganti HP.</string>
+    <string name="event_quests_header">Misi</string>
+    <string name="event_quest_hint_PAD_HITS">Pukul pad sebanyak target.</string>
+    <string name="event_quest_hint_SESSIONS">Buka app di beberapa sesi berbeda.</string>
+    <string name="event_quest_hint_RECORDINGS">Simpan rekaman permainanmu.</string>
+    <string name="event_quest_hint_PRESETS_SAVED">Simpan suara ke pad.</string>
+    <string name="event_quest_hint_ACTIVE_DAYS">Main di hari-hari yang berbeda.</string>
+    <string name="event_howto">Selesaikan semua misi, lalu klaim skin-nya. Progres cuma bertambah selama event berjalan.</string>
+
+    <!-- Koleksi skin event + status yang jelas -->
+    <string name="event_collection_title">Koleksi Skin Event</string>
+    <string name="event_collection_desc">Skin yang sudah kamu buka jadi milikmu selamanya, walau event-nya sudah berakhir.</string>
+    <string name="event_section_events">Event</string>
+    <string name="event_none_other">Belum ada event lain saat ini.</string>
+    <string name="event_collection_unknown">Skin event</string>
+    <string name="event_status_in_use">Sedang dipakai</string>
+    <string name="event_status_not_downloaded">Belum diunduh</string>
+    <string name="event_status_update">Ada update</string>
+    <string name="event_status_ready">Siap dipakai</string>
+    <string name="event_state_open">Belum ikut</string>
+    <string name="event_state_joined">Sedang diikuti</string>
+    <string name="event_state_claim">Siap diklaim</string>
+    <string name="event_state_soon">Segera hadir</string>
+    <string name="event_state_ended">Berakhir</string>
+    <string name="event_btn_download_use">Unduh &amp; Pakai</string>
+    <string name="event_btn_update_use">Update &amp; Pakai</string>
+</resources>

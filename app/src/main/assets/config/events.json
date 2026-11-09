@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "event_id": "cat-edition-2026",
+      "title": "Cat Edition",
+      "description": "Selesaikan semua misi buat buka skin kucing 12 pad.",
+      "banner": "cat-edition-2026.png",
+      "skin_id": "cat-edition",
+      "start_at": "2026-10-27T00:00:00+07:00",
+      "end_at": "2026-12-31T23:59:59+07:00",
+      "quests": [
+        { "quest_id": "cat26-hits",    "title": "Cakar Pemanasan", "description": "Pukul pad 300 kali.",            "type": "PAD_HITS",      "target_value": 300 },
+        { "quest_id": "cat26-sessions","title": "Balik Lagi Dong", "description": "Buka app di 3 sesi berbeda.",    "type": "SESSIONS",      "target_value": 3 },
+        { "quest_id": "cat26-rec",     "title": "Meong Rekaman",   "description": "Simpan 1 rekaman permainanmu.",  "type": "RECORDINGS",    "target_value": 1 },
+        { "quest_id": "cat26-preset",  "title": "Koleksi Suara",   "description": "Simpan 2 suara ke pad.",         "type": "PRESETS_SAVED", "target_value": 2 },
+        { "quest_id": "cat26-days",    "title": "Rajin Ngucing",   "description": "Main di 3 hari berbeda.",        "type": "ACTIVE_DAYS",   "target_value": 3 }
+      ]
+    }
+  ]
+}
